@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>弹性盒导航</title>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="font/iconfont.css"/>
+		<style type="text/css">
+			footer{
+				
+				position: fixed;right: 0;
+				bottom: 0;
+				left: 0;
+				background: linear-gradient(to bottom,#afafaf,#efefef,#cfcfcf);
+				}
+			nav{display: flex;justify-content: center;height: 50px;}
+			nav a{flex: 1;text-align: center;text-decoration: none;align-self: center;}
+			nav a:hover{background: linear-gradient(to bottom,#f00,#ff0,#00f);}	
+		</style>
+	</head>
+	<body>
+		<footer>
+			<nav>
+				<a href="#"><span class="iconfont icon-home"></span>首页</a>
+				<a href="#"><span class="iconfont icon-list"></span>列表</a>
+				<a href="#"><span class="iconfont icon-setting"></span>设置</a>	
+			</nav>
+		</footer>
+	</body>
+</html>

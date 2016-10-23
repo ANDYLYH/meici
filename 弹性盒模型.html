@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>弹性盒模型</title>
+		<style>
+			
+			ul{list-style: none;padding: 0;margin: 0 auto;display: flex;width: 800px;flex-wrap: wrap;
+			border: 1px solid #ccc;}
+			li{width: 150px;border: 1px solid #ddd;margin: 5px;flex: 1;height: 300px;
+			display: flex;align-items: center;justify-content: center;flex-direction: column;}
+			img{width: 150px;}
+			
+			li:nth-child(2){flex: 2;}
+		</style>
+		
+	</head>
+	<body>
+		<ul>
+			<li><img src="img/yy_1.jpg" alt="" /></li>
+			<li><img src="img/yy_2.png" alt="" /></li>
+			<li><img src="img/yy_3.jpg" alt="" /></li>
+			<li><img src="img/yy_4.png" alt="" /></li>
+			<li><img src="img/yy_5.jpg" alt="" /></li>
+			<li><img src="img/yy_6.jpg" alt="" /></li>
+			<li><img src="img/yy_7.jpg" alt="" /></li>
+		</ul>
+	</body>
+</html>
