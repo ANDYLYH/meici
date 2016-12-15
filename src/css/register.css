@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.bg_main{width: 100%;overflow: hidden;}
+.bg_main .bg_comtent{position: relative;width: 960px;height: 517px;background:url(img/bg_main.jpg) no-repeat;margin: 20px auto;}
+.bg_main .bg_comtent .bg_logo{width: 373px;height: 142px;position: absolute;top: 28px;left: 69px;}
+.bg_main .bg_comtent .register_form{display:block;width: 856px;height: 264px;position: absolute;left: 104px;top: 200px;}
+.bg_main .bg_comtent .bg_tip{position: absolute;left: 213px;top:169px;font-size: 17px;color: #8e0c3a;font-weight: 500;}
+.bg_main .bg_comtent .register_form td{height: 40px;color: #666666;font-size: 12px;}
+.bg_main .bg_comtent .register_form .re_input{width: 204px;height: 22px;border: 1px solid #666666;margin-left: 15px;font-size: 18px;}
+.bg_main .bg_comtent .register_form table{empty-cells: hide;}
+.bg_main .bg_comtent .register_form .register_btn{display:inline-block;width: 204px;height: 30px;background-color: #8e0c3a;margin-left: 15px;color: #FFFFFF;font-size: 14px;}
+
+#register_t{margin-left: 13px;font-size: 16px;color: red;}

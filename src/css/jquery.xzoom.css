@@ -1,0 +1,5 @@
+.xzoom{position:relative;}
+.xzoom .xzoom-min{position:absolute;top:0;left:0;width:100px;height:50px;border:1px solid #7A7A7A;background-color:rgba(255,204,204,0.3);}
+
+.xzoom-big{position:absolute;width:355px;height:425px;overflow:hidden;}
+.xzoom-big img{position:absolute;left:0;top:0;}

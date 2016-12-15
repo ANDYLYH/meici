@@ -1,0 +1,9 @@
+@charset "utf-8";
+body,html,ul,li,div,p,a,img,button,input,i,span,h1,h2,h3,h4,h5,h6,form{padding: 0;margin: 0;border: 0;}
+
+body,html{height:100%;width: 100%;font: 12px "微软雅黑";position: relative;}
+ul,li{list-style: none;}
+
+a{text-decoration: none; color: #999999;}
+
+img{border: 0;display: block;}

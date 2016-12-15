@@ -1,0 +1,14 @@
+@charset "utf-8";
+
+.bg_main{width: 100%;overflow: hidden;}
+.bg_main .bg_comtent{position: relative;width: 960px;height: 517px;background:url(img/bg_main.jpg) no-repeat;margin: 20px auto;}
+.bg_main .bg_comtent .bg_logo{width: 373px;height: 142px;position: absolute;top: 28px;left: 69px;}
+.bg_main .bg_comtent .entry_form{display:block;width: 856px;height: 264px;position: absolute;left: 104px;top: 200px;}
+.bg_main .bg_comtent .bg_tip{position: absolute;left: 213px;top:169px;font-size: 17px;color: #8e0c3a;font-weight: 500;}
+.bg_main .bg_comtent .entry_form td{height: 40px;color: #666666;font-size: 12px;}
+.bg_main .bg_comtent .entry_form .re_input{width: 204px;height: 22px;border: 1px solid #666666;margin-left: 15px;font-size: 18px;}
+.bg_main .bg_comtent .entry_form table{empty-cells: hide;}
+.bg_main .bg_comtent .entry_form .register_btn{display:inline-block;width: 204px;height: 30px;background-color: #8e0c3a;margin-left: 15px;color: #FFFFFF;font-size: 14px;}
+/*.header .header_bar .header_right{width: 250px;height: 36px;float: right;}
+.header .header_bar .header_right li{float: right;line-height: 36px;text-align: center;font-size: 12px;color: #838383;}*/
+#entry_t{margin-left: 13px;font-size: 16px;color: red;}

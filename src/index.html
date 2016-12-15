@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>佳样年华</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="css/pcarousel.css"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		
+		<script src="js/jquery-1.12.0.js"></script>
+		<script src="js/pcarousel.js"></script>
+		<script src="js/xpcarousel.js"></script>
+		<script type="text/javascript" src="js/CookieFn.js" ></script>
+		<script src="js/sable.js"></script>
+		<script src="js/index_bottom.js"></script>
+		<script type="text/javascript">
+			jQuery(function($){
+				
+				//轮播图
+				$("#carouser").pcarousel({
+					type:'x',
+    				page:false
+				})
+//		
+				//吸顶菜单
+				$(document).scroll(function(){
+					var scrolltop = $(this).scrollTop();
+					if(scrolltop >= 200){ //设定一个高度
+						$(".float_logo").show();
+					}else{
+						$(".float_logo").hide();
+					}
+				})
+				
+				$(".go_top").click(function(){
+					$(document).scrollTop(0);
+				})
+				
+			})
+		</script>
+	</head>
+	<body>
+	<div class="main_head"></div>
+
+        <!--吸顶菜单-->
+	    <div class="float_logo">
+	    	<div class="float_logo_1">
+	    		<a href="#" class="imgs"><img class="imgs_1" src="img/float_logo.gif"/></a>
+	    		<div class="float_search">
+	    			<form class="soushuo">
+	    				<input type="text" id="search_text" class="input" placeholder="请输入你的关键词" />
+			    		<button class="float_btn"></button>
+	    			</form>
+	    		</div>
+	    		<div class="fashion_gou">
+	    			<p><span>时尚导购</span><em></em></p> 
+	    			
+	    			<div id="fashion_g1">
+                    <ul class="fashion_list">
+					<li><a  class="fashion_com" href="#">男士&nbsp;Man</a></li>
+					<li><a href="#">包装 Bags</a></li>
+					<li><a href="#">配饰Accessories</a></li>
+					<li><a href="#">鞋履Shoes</a></li>
+					<li><a href="#">服装 Clothes</a></li>
+				</ul>
+				
+				<ul  class="fashion_list">
+					<li><a class="fashion_com" href="#">女士&nbsp;Woman</a></li>
+					<li><a href="#">包装 Bags</a></li>
+					<li><a href="#">配饰Accessories</a></li>
+					<li><a href="#">鞋履Shoes</a></li>
+					<li><a href="#">服装 Clothes</a></li>
+				</ul>  
+				
+				<ul class="fashion_list">
+					<li><a href="#"  class="fashion_com">包袋 Bags</a></li>
+					<li><a href="#">所有包袋</a></li>
+					<li><a href="#">手提包 Totes</a></li>
+					<li><a href="#">单肩包 Shoulder Bags</a></li>
+					<li><a href="#">斜挎包 Messenger Bags</a></li>
+					<li><a href="#">手拿包 Clutch Bags</a></li>
+					<li><a href="#">旅行包 Travel Bags</a></li>
+				</ul>
+				
+				<ul class="fashion_list">
+					<li><a href="#" class="fashion_com">配饰 Accessories</a></li>
+					<li><a href="#">所有配饰</a></li>
+					<li><a href="#">钱包 Wallets</a></li>
+					<li><a href="#">手表 Watches</a></li>
+					<li><a href="#">太阳眼镜 Sunglasses</a></li>
+					<li><a href="#">饰品 Jewelry </a></li>
+					<li><a href="#">腰带 Belts</a></li>
+					<li><a href="#">围巾 Scarf</a></li>
+					<li><a href="#">数码周边 Technology</a></li>
+					<li><a href="#">小配件 Small Acc.</a></li>
+				</ul>
+				
+				<ul class="fashion_list">
+					<li><a href="#" class="fashion_com" >鞋履 Shoes</a></li>
+					<li><a href="#">所有鞋履</a></li>
+					<li><a href="#">平底鞋 Flat Shoes</a></li>
+					<li><a href="#">高跟鞋 Pumps</a></li>
+					<li><a href="#">靴子 Boots</a></li>
+				</ul>
+				
+			   <ul class="fashion_list">
+					<li><a href="#" class="fashion_com">服装 Clothes</a></li>
+					<li><a href="#">所有服装</a></li>
+					<li><a href="#">卫衣 Hoodies</a></li>
+					<li><a href="#">衬衫 Shirt</a></li>
+					<li><a href="#">针织/毛衫 Knit/Sweater</a></li>
+					<li><a href="#">夹克 Jacket</a></li>
+					<li><a href="#">大衣/风衣 Coat/Dust Coat</a></li>
+					<li><a href="#">半裙 Skirts</a></li>
+					<li><a href="#">连衣裙 Dresses</a></li>
+					<li><a href="#">牛仔 Denims</a></li>
+				</ul>
+            </div>
+	    			
+	    			
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+<!--...................body  内容部分.................................-->	
+ 
+	     <div class="content">
+	      <!--........................大轮播图.......................-->
+	     	
+	     	<div id="carouser">
+				<ul id="list">
+					<li><a href="#"><img src="img/1.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="img/2.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="img/3.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="img/4.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="img/5.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="img/6.jpg" alt="" /></a></li>
+					<li><a href="#"><img src="img/7.jpg" alt="" /></a></li>
+				</ul>
+		    </div>
+		    
+		    <!--中间内容部分-->
+		     <!--内容第一部分-->
+		    <div class="weekly">
+		    	<div class="theme01">
+		    		<div class="line"></div>
+		    		<p>
+		    			Special Offer<br />
+                                                                              特别推荐
+		    		</p>
+		    	</div>
+		    <div class="float1">
+		    	<div class="float1_1">
+		    		<a href="#"><img src="img/PG2.jpg" alt="" /></a>
+		    		<a href="#"><img src="img/PG3.jpg" alt="" /></a>
+		    	</div>
+		    	<div class="float1_2">
+		    		<a href="#"><img src="img/PG1.jpg" alt="" /></a>
+		    	</div>
+		    	<div class="float1_3">
+		    		<a href="#"><img src="img/PG4.jpg" alt="" /></a>
+		    		<a href="#"><img src="img/PG5.jpg" alt="" /></a>
+		    	</div>
+		    </div>
+		    </div>
+		    
+		    <!--内容第二部分-->
+		     <div class="weekly">
+		    	<div class="theme01">
+		    		<div class="line"></div>
+		    		<p>
+		    			Editor's Pick<br />
+                                                                        编辑推荐
+		    		</p>
+		    	</div>
+		    <div class="float1">
+		    	<div class="float1_1">
+		    		<a href="#"><img src="img/PG5.jpg" alt="" /></a>
+		    		<a href="#"><img src="img/PG7.jpg" alt="" /></a>
+		    	</div>
+		    	<div class="float1_2">
+		    		<a href="#"><img src="img/PG8.jpg" alt="" /></a>
+		    	</div>
+		    	<div class="float1_3">
+		    		<a href="#"><img src="img/PG9.jpg" alt="" /></a>
+		    		<a href="#"><img src="img/PG10.jpg" alt="" /></a>
+		    	</div>
+		    </div>
+		    </div>
+		       <!--内容第三部分-->
+		    <div class="weekly">
+		    	<div class="theme01">
+		    		<div class="line"></div>
+		    		<p>
+		    			For Him <br />
+                                                                            男仕精选
+		    		</p>
+		    	</div>
+		    <div class="float1">
+		    	<div class="float1_1">
+		    		<a href="#"><img src="img/PG11.jpg" alt="" /></a>
+		    		<a href="#"><img src="img/PG12.jpg" alt="" /></a>
+		    	</div>
+		    	<div class="float1_2">
+		    		<a href="#"><img src="img/PG13.jpg" alt="" /></a>
+		    	</div>
+		    	<div class="float1_3">
+		    		<a href="#"><img src="img/PG14.jpg" alt="" /></a>
+		    		<a href="#"><img src="img/PG15.jpg" alt="" /></a>
+		    	</div>
+		    </div>
+		    </div>
+		    <!--内容第三部分-->
+		    <div class="weekly">
+		    	<div class="theme01">
+		    		<div class="line"></div>
+		    		<p>
+		    			For Her<br />
+                                                                        女士精选
+		    		</p>
+		    	</div>
+		    <div class="float1">
+		    	<div class="float1_1">
+		    		<a href="#"><img src="img/PG17.jpg" alt="" /></a>
+		    		<a href="#"><img src="img/PG19.jpg" alt="" /></a>
+		    	</div>
+		    	<div class="float1_2">
+		    		<a href="#"><img src="img/PG18.jpg" alt="" /></a>
+		    	</div>
+		    	<div class="float1_3">
+		    		<a href="#"><img src="img/PG20.jpg" alt="" /></a>
+		    		<a href="#"><img src="img/PG21.jpg" alt="" /></a>
+		    	</div>
+		    </div>
+		    </div> 
+		     
+		    <!--........................小轮播图..............................-->
+		    <div class="s_lunbo">
+		    		<!--主题-->
+		    	<div class="theme02">
+		    		<div class="line"></div>
+		    		<p>
+		    			BEING SOLD<br />
+                                                                        正被选购
+		    		</p>
+		    	</div>
+		    	<span id="prev"></span>
+				<span id="next"></span>
+		    	<div id="small-carouser"">
+				<ul id="small_list">
+						<li><a href="#"><img src="img/p1.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p2.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p4.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p5.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p7.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p8.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p9.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p10.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p11.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p12.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p14.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+		            	<li><a href="#"><img src="img/p15.jpg" alt="" /><p>Moncler 蒙口<br/>全棉 男仕 马甲/背心</p></a></li>
+				</ul>
+               </div>
+			    
+		    
+		    </div>
+		    
+		    
+		    		   <!--内容第五部分-->
+		    <div class="fashion">
+		    	<div class="theme03">
+		    		<div class="line"></div>
+		    		<p>
+		    			M TRENDS <br />
+                                                                      时尚专题推荐
+		    		</p>
+		    	</div>
+		    	<div class="fashion_img1">
+		    		<a href="#"><img src="img/PG23.jpg" alt="" img="" /></a>
+		    	</div>
+		    	<div class="fashion_img2">
+		    		<a href="#"><img src="img/PG24.jpg" alt="" img="" /></a>
+		    	</div>
+		    	<div class="fashion_img3">
+		    		<a href="#"><img src="img/PG25.jpg" alt="" img="" /></a>
+		    	</div>
+		    </div>
+		    
+		     <!--内容第六部分-->
+		   <div class="big_img">
+		   	<a href="#"><img src="img/mzine2.jpg" alt="" /></a>
+		   </div>
+		    
+		     <div class="more_active">
+	       	<!--主题-->
+		    	<div class="theme04">
+		    		<div class="line"></div>
+		    		<p>
+		    			SUBSCRIBE & DOWNLOAD<br />
+                                            体验更多
+		    		</p
+		    	</div>
+		    <div class="active_child">
+		    <div class="active_1">
+	       		<a href="#"><img src="img/nb01.jpg"/></a>
+	       	</div>
+	       	<div class="active_2">
+	       		<img src="img/nb02.jpg"/>
+	       		<form>
+	       			<div class="form_text">
+	       				<input type="text" value="" placeholder="请填写你的E-mail"/>
+	       			</div>
+	       			<div class="form_btn">
+	       				<button>即刻订阅</button>
+	       			</div>
+	       		</form>
+	       	</div>
+	       	<div class="active_3">
+	       		<a href="#"><img src="img/nb03.jpg"/></a>
+	       	</div>
+		    </div> 	
+		    
+		    
+	     </div>     
+	     
+	     
+	  
+	     
+	
+	   <!--......................页面底部   footer...................................-->
+	   <div class="footer">
+	   	<div class="footer_top">
+	   		 <div class="footer_top1">
+	   		 	<ul class="f_list1">
+	   		 		<li class="f_listcom">购物指南</li>
+					<li><a href="#">购物流程</a></li>
+					<li><a href="#">配送方式</a></li>
+	   		 	</ul>
+	   		 	<ul class="f_list2">
+	   		 		<li class="f_listcom">支付方式</li>
+					<li><a href="#">如何付款</a></li>
+					<li><a href="#">发票制度</a></li>
+	   		 	</ul>
+	   		 	<ul class="f_list3">
+	   		 		<li class="f_listcom">商品说明</li>
+					<li><a href="#">商品尺码</a></li>
+					<li><a href="#">商品包装</a></li>
+	   		 	</ul>
+	   		 	<ul class="f_list4">
+	   		 		<li class="f_listcom">客服中心</li>
+					<li><a href="#">七天退换</a></li>
+					<li><a href="#">常见问题</a></li>
+	   		 	</ul>
+	   		 </div>
+	   		 <div class="footer_top2">
+	   		 	<ul class="f_list5">
+	   		 		<li>
+	   		 			<p class="list_tex">订购热线</p>
+	   		 			<p class="list_tex">4000-250-630</p>
+	   		 		</li>
+	   		 		
+	   		 	</ul>
+	   		 </div>
+	   		 <div class="footer_top3">
+	   		 	<ul class="f_list6">
+	   		 		<li style="margin-bottom: 10px;font-size: 14px;color: #666666;">在线客服</li>
+	   		 		<li class="line_logo">
+   		 				<a href="#" style="background: url(css/img/footico.gif) no-repeat;"></a>
+						<a href="#" style="background: url(css/img/footico.gif) no-repeat -20px top;width: 21px;"></a>
+	   		 		</li>
+	   		 	</ul>
+	   		 </div>
+	   		 <div class="footer_top4">
+	   		 	<ul class="f_list7">
+	   		 		<li class="f_bt">美西时尚APP</li>
+	   		 		<li><a href="#" style="background: url(css/img/ewm_indexBot1.png) no-repeat;"></a></li>
+	   		 	</ul>
+	   		 	<ul class="f_list8">
+	   		 		<li class="f_bt">关注我们</li>
+	   		 		<li><a href="#" style="background: url(img/ewm_wx.png);"></a></li>
+	   		 	</ul>
+	   		 </div>
+	   	</div>
+	   	<div class="footer_middle">
+	   		<div class="footer_nav">
+	   			<a href="index2.html">首页</a>
+				<a href="#">关于美西</a>
+				<a href="#">媒体报道</a>
+				<a href="#">正品保证</a>
+				<a href="#">业务合作</a>
+				<a href="#">隐私声明</a>
+				<a href="#">加入美西</a>
+				<a href="#">网站地图</a>
+				<a href="#">联系我们</a>
+	   		</div>
+
+	   	</div>
+	   	
+	   	<div class="footer_buttom">
+	   		<div class="f_buttom1">
+	   			 <a href="#" class="warm_1"></a>
+		  	 	 <a href="#" class="warm_2"></a>
+		  	 	 <span style="display: inline-block; margin-right: 10px;font-size: 10px; color: #333333;margin-bottom: 30px;">媒体支持：</span>
+		  	 	 <a href="#" class="warm_3"></a>
+		  	 	 <a href="#" class="warm_4"></a>
+		  	 	 <a href="#" class="warm_5">MEICI.CLUB</a>
+	   		</div>
+	   		<div class="f_buttom2">
+	   			<p class="b_tex">Copyright © 2008-2016 美西时尚-高端时尚生活电商<br/>沪ICP备09001221号</p>
+	   		</div>
+	   		<div class="f_buttom3">
+	   			<div class="b_logo">
+		  	 	<a href="#" class="b_logo1"></a>
+		  	 	<a href="#" class="b_logo2"></a>
+		  	 </div>
+	   		</div>
+	   		
+	   	</div>
+	   </div>
+	    
+	   <!--定位logo-->
+        
+        <ul class="fixed_logo">
+        	<li class="fixe1"><a href="#" class="fa" title="即刻咨询"></a></li>
+        	<li class="fixe2"><a href="#" class="fa" title="QQ咨询"></a></li>
+        	<li class="fixe3"><a href="#" class="fa" title="回到顶部" class="go_top"></a></li>
+        </ul>
+        
+        <!--首页底部表单-->
+        <div id="bottom_form">
+        	<div id="bot_form" style="position: relative;">
+        		<div class="bot_formL1">
+        			<h3 style="margin-left: 96px;" class="b_h moren" >注册</h3><h3 style="" class="b_h">登录</h3>
+        			<form action="index2.html" method="post" class="fixed_form1" style="margin-left: 96px;">
+        				<table border="0" cellspacing="" cellpadding="" width="290px">
+        					<tr>
+        	  	   	   		<td>手机/邮箱:</td>
+        	  	   	   		<td><input type="text" name="" id="" value="" class="bot_input" id="phone1" placeholder="请输入手机/邮箱"/></td>      	  	  
+        	  	   	   	</tr>
+        	  	   	   	<tr>
+        	  	   	   		<td>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码:</td>
+        	  	   	   		<td><input type="password"  class="bot_input" id="password" placeholder="请输入密码"/></td>
+        	  	   	   	</tr>
+        	  	   	 	<tr>
+        	  	   	   		<td>确认 密码:</td>
+        	  	   	   		<td><input type="password" class="bot_input" id="queren" placeholder="请输入确认密码"/></td>
+        	  	   	    </tr>
+        	  	   	    <tr>
+        	  	   	   		<td></td>
+        	  	   	   		<td><button class="bot1_btn" type="submit" id="btn5">注册</button></td>
+        	  	   	   </tr>
+        	  	   	    <tr>
+        	  	   	   		<td></td>
+        	  	   	   		<td><p id="botentry_t1"></p></td>
+        	  	   	   </tr>
+        				</table>
+        			</form>
+        			
+        			<form action="index2.html" method="post" class="fixed_form2" style="display: none;margin-left: 96px;">
+        				<table border="0" cellspacing="" cellpadding="" width="290px">
+        				<tr>
+        	  	   	   		<td>手机/邮箱:</td>
+        	  	   	   		<td><input type="text" name="" id="" value="" class="bot_input" id="phone1" placeholder="请输入手机/邮箱"/></td>      	  	  
+        	  	   	   	</tr>
+        	  	   	   	<tr>
+        	  	   	   		<td>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码:</td>
+        	  	   	   		<td><input type="password"  class="bot_input" id="password" placeholder="请输入密码"/></td>
+        	  	   	   	</tr>
+        	  	   	 	
+        	  	   	    <tr>
+        	  	   	   		<td></td>
+        	  	   	   		<td><button class="bot1_btn" type="submit" id="btn4">登录</button></td>
+        	  	   	   </tr>
+        	  	   	    <tr>
+        	  	   	   		<td></td>
+        	  	   	   		<td><p id="botentry_t"></p></td>
+        	  	   	   </tr>
+        			</table>
+        			</form>
+        		</div>
+        		<div class="bot_formR1">
+        		<ul class="bot_list7" style="margin-left: 100px;">
+	   		 		<li class="bot_bt">美西时尚APP</li>
+	   		 		<li><a href="#"><img src="img/ewm_indexBot1.png"/></a></li>
+	   		 	</ul>
+	   		 	<ul class="bot_list8">
+	   		 		<li class="bot_bt">关注我们</li>
+	   		 		<li><a href="#"><img src="img/ewm_wx.png"/></a></li>
+	   		 	</ul>
+        		</div>
+        	    <span id="bto_close">
+        	    	关闭&times;
+        	    </span>
+        	</div>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+
+.shopping_cart{width: 100%;overflow: hidden;}
+.shopping_cart .goods_state{width: 960px;height: 27px;margin: 0 auto;margin-bottom: 15px;}
+.shopping_cart .goods_num{width: 960px;overflow: hidden;margin: 0 auto;background-color: #d5d8df;}
+
+.shopping_cart .goods_num .car_tips{width: 420px;height: 90px;background: url(img/cartico.png) no-repeat;margin: 100px auto 0;padding: 20px 0 200px 115px;}
+
+
+.tips{border: 1px solid #8cbe7c;background: #f4fff3 ;padding: 10px 0 10px 50px;overflow: hidden;width: 910px;margin: 0 auto;}
+.tips i{background: url(img/tipico01.png) no-repeat 0 -40px;display: inline-block;width: 16px;height: 16px;margin-right: 5px; float: left;}
+
+
+.list{background: #eee;overflow: hidden;width: 960px;}
+.list li{float: left;width: 100px;line-height: 40px;text-align: center;}
+
+.car_box{width: 960px;overflow: hidden;margin: 0 auto;}
+/*.car_box #imgage{display: inline-block;width: 100px;height: 100px;overflow: hidden;}*/
+
+
+.pro{width: 960px;border-bottom: 1px solid #CCCCCC;overflow: hidden;}
+.pro li{border-bottom: solid 1px #eee;padding: 15px 0;overflow: hidden;}
+.pro li *{display: inline-block; float: left;}
+.pic{width: 100px;text-align: center;display: block;}
+.pic .img1{width: 100px;height: 100px;display: inline-block;}
+.tit{width: 490px;margin-top: 30px;padding-left: 20px;}
+.tit a{color: #6C6C6C;text-decoration: none;}
+.tit a:hover{color: #8E0C3A;;}
+.count{width: 150px;margin-top: 30px;text-align: center;}
+.price{margin-top: 30px;width: 100px;text-align: center;}
+
+.btn{width: 100px;margin-top: 20px;text-align: center;}
+.btn span{width: 100px;float: left;cursor: pointer;}
+.btn span:hover{color: #8E0C3A;}
+
+.all{padding: 10px 0;overflow: hidden;width: 960px;margin: 0 auto;}
+.all *{float: right;padding-right: 28px;}
+.all i{font-style: normal;color: #8EC3A;font-size: 18px;}
+.all span{font-size: 12px;color: #6C6C6C;margin-top: 5px;}
+.pay{overflow: hidden;width: 960px;margin: 0 auto;}
+
+.pay span{height: 48px;float: left;}
+.pay span a{color: #6C6C6C;}
+.pay button{float: right;width: 158px;height: 48px;background: url(img/cartbtn.gif);}
+
+
+.header .header_bar .header_right{width: 250px;height: 36px;float: right;}
+.header .header_bar .header_right li{float: right;line-height: 36px;text-align: center;font-size: 12px;color: #838383;}
+
+
+
+
+
+
+
+

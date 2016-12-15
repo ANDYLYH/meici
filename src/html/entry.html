@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/entry.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	
+		<script src="../js/jquery-1.12.0.js"></script>
+		<script src="../js/sable.js"></script>
+		<script src="../js/CookieFn.js"></script>
+		<script src="../js/entry1.js"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="header_bar">
+				<div class="header_left">
+					<a href="register.html" target="_blank">注册</a>
+					<a href="entry.html" class="load" target="_blank">登录</a>
+					<a href="#" style="border: 0;">订单查询</a>
+				</div>
+				
+				<div class="header_right">
+					<ul>
+						<li class="right_1">客服热线:4000-250-630</li>
+						<li class="right_2"><em></em>关注我们</li>	
+						<li class="right_3 shoping_car" style="cursor: default;">
+							<a href="shoppingcar.html">
+								<div class="copy_car">
+									<em></em>
+									<i>购物袋(&nbsp;<span id="cuont_goods">0</span>&nbsp;)</i>
+								</div>
+								<div class="car_arro"></div>	
+							</a>
+				        	<div class="scar_l">
+							   	<h3 style="border-bottom: 1px solid #CCCCCC;">最新加入的商品</h3>
+							   	<ul class="scar_list1"></ul>
+						    </div>
+						 
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	
+	     <!--logo-->
+	     <div class="logo">
+	     	<div class="logo_box">
+	     	<div class="logo_left">
+	     		<a href="#"><img src="../css/img/ewm_indexBot1.png" alt="" /></a>
+				<span>
+					<img src="../css/img/ewm_txt.png" />
+				</span>
+	     	</div>
+	     	<div class="logo_middle">
+	     		<a href="#"><img src="../css/img/logo.gif" alt="" /></a>
+	     	</div>
+	     	<div class="logo_right">
+	     		<div class="input">
+			    		<input type="text" id="search_text" placeholder="请输入你的关键词" />
+		    	</div>
+		    	<div class="search_btn">
+		    		<button></button>
+		    	</div>
+	     	</div>
+	     	</div>
+	     	
+	     </div>
+
+	   
+
+        <!--吸顶菜单-->
+	    <div class="float_logo">
+	    	<div class="float_logo_1">
+	    		<a href="#" class="imgs"><img class="imgs_1" src="../img/float_logo.gif"/></a>
+	    		<div class="float_search">
+	    			<form class="soushuo">
+	    				<input type="text" id="search_text" class="input" value="请输入你的关键词" />
+			    		<button class="float_btn"></button>
+	    			</form>
+	    		</div>
+	    		<div class="fashion_gou">
+	    			<p><span>时尚导购</span><em></em></p>
+	    		</div>
+	    	</div>
+	    </div>
+	    
+	    <!--*******************************内容部分***********************************8-->
+        <div class="bg_main">
+        	  <div class="bg_comtent">
+        	  	   <div class="bg_logo">
+        	  	   	<img src="../img/register_bg.png"/>
+        	  	   </div>
+        	  	   <div class="bg_tip">
+        	  	   	手机验证完成即送100元代金券
+        	  	   </div>
+        	  	   <form action="../index2.html" method="post" class="entry_form">
+        	  	   	
+        	  	   	   <table border="0" cellspacing="0" cellpadding="0">
+        	  	   	   	<tr>
+        	  	   	   		<td>手机/邮箱:</td>
+        	  	   	   		<td ><input type="text" name="" id="" value="" class="re_input" placeholder="请输入手机/邮箱"/></td>      	  	  
+        	  	   	   	</tr>
+        	  	   	   	<tr>
+        	  	   	   		<td>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码:</td>
+        	  	   	   		<td><input type="password"  class="re_input" placeholder="请输入密码"/></td>
+        	  	   	   	</tr>
+        	
+        	  	   	   <tr>
+        	  	   	   		<td></td>
+        	  	   	   		<td>&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox"/>&nbsp;&nbsp;下次自动登录<a href="#" style="margin-left: 55px;">忘记密码？</a></td>
+        	  	   	   </tr>
+        	  	   	   <tr>
+        	  	   	   		<td></td>
+        	  	   	   		<td><button class="register_btn" type="submit" id="btn2">登录</button></td>
+        	  	   	   </tr>
+        	  	   	   <tr>
+        	  	   	   		<td></td>
+        	  	   	   		<td style="text-align: right;"><a href="register.html" style="margin-right: 5px;">立即注册</a></td>
+        	  	   	   </tr>
+        	  	   	    <tr>
+        	  	   	   		<td></td>
+        	  	   	   		<td><p id="entry_t"></p></td>
+        	  	   	   </tr>
+        	  	   	</table>
+        	  	   </form>
+        	  </div>
+        </div>	    
+	    
+	    <!--...................底部...................-->
+	  <div class="footer">
+
+	   	<div class="footer_middle">
+	   		<div class="footer_nav">
+	   			<a href="./index.html">首页</a>
+				<a href="#">关于美西</a>
+				<a href="#">媒体报道</a>
+				<a href="#">正品保证</a>
+				<a href="#">业务合作</a>
+				<a href="#">隐私声明</a>
+				<a href="#">加入美西</a>
+				<a href="#">网站地图</a>
+				<a href="#">联系我们</a>
+	   		</div>
+	   	</div>
+	   	<div class="footer_buttom">
+	   		<div class="f_buttom1">
+	   			 <a href="#" class="warm_1"></a>
+		  	 	 <a href="#" class="warm_2"></a>
+		  	 	 <span style="display: inline-block; margin-right: 10px;font-size: 10px; color: #333333;margin-bottom: 30px;">媒体支持：</span>
+		  	 	 <a href="#" class="warm_3"></a>
+		  	 	 <a href="#" class="warm_4"></a>
+		  	 	 <a href="#" class="warm_5">MEICI.CLUB</a>
+	   		</div>
+	   		<div class="f_buttom2">
+	   			<p class="b_tex">Copyright © 2008-2016 美西时尚-高端时尚生活电商<br/>沪ICP备09001221号</p>
+	   		</div>
+	   		<div class="f_buttom3">
+	   			<div class="b_logo">
+		  	 	<a href="#" class="b_logo1"></a>
+		  	 	<a href="#" class="b_logo2"></a>
+		  	 </div>
+	   		</div>
+	   		
+	   	</div>
+	   </div>
+	</body>
+</html>
